@@ -9,14 +9,14 @@ const Navbar: React.FC = () => {
                     <img src="/src/assets/main-office-logo/logo-v3-clickup-light.svg" alt="logo" />
                     <ul>
                         <li className='log-in'><Link to="/">Home</Link></li>
-                        <li><Link to="/login">Login</Link></li>
+                        {/* <li><Link to="/login">Login</Link></li> */}
                         <li><Link to="/pricing">Pricing</Link></li>
                         <li><Link to="/contact-us">Contact Us</Link></li>
                     </ul>
                 </div>
                 <ul>
-                    <li><Link to="/login">Login</Link></li>
-                    <li className='sign-up'><Link to="/signUp">Sign Up</Link></li>
+                    {/* <li><Link to="/login">Login</Link></li> */}
+                    <li className='sign-up'><Link to="/signUp">Login</Link></li>
                 </ul>
             </nav>
         </>
