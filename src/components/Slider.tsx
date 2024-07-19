@@ -6,8 +6,8 @@ import 'slick-carousel/slick/slick-theme.css';
 export default function ImageSlider() {
   const [nav1, setNav1] = useState<any>(null);
   const [nav2, setNav2] = useState<any>(null);
-  let sliderRef1 = useRef<any>(null);
-  let sliderRef2 = useRef<any>(null);
+  let sliderRef1 = useRef<React.MutableRefObject<Slider | null> | null>(null);
+  let sliderRef2 = useRef<React.MutableRefObject<Slider | null> | null>(null);
 
   useEffect(() => {
     setNav1(sliderRef1);
@@ -24,44 +24,47 @@ export default function ImageSlider() {
         slidesToShow={8.5}
         focusOnSelect={true}
         centerMode={true}
+        arrows={false}
         centerPadding="10px"
+        className='nav-slider'
       >
-        <div>
-          <h4>Forms</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Forms</h4>
         </div>
-        <div>
-          <h3>2</h3>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Sprints</h4>
         </div>
-        <div>
-          <h3>3</h3>
-          <h4>Docs</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Docs</h4>
         </div>
-        <div>
-          <h3>4</h3>
-          <h4>Time tracking</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Time tracking</h4>
         </div>
-        <div>
-          <h3>5</h3>
-          <h4>Chat</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Chat</h4>
         </div>
-        <div>
-          <h3>6</h3>
-          <h4>Whiteboards</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Whiteboards</h4>
         </div>
-        <div>
-          <h3>7</h3>
-          <h4>Projects</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Projects</h4>
         </div>
-        <div>
-          <h3>8</h3>
-          <h4>Dashboard</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>Dashboard</h4>
         </div>
-        <div>
-          <h3>9</h3>
-          <h4>AI</h4>
+        <div className='parent-box'>
+          <img src='/src/assets/sliders/dashboard-logo.svg' />
+          <h4 className='box-text'>AI</h4>
         </div>
       </Slider>
-      <h4>First Slider</h4>
       <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} className='main-banner'>
         <div>
           <h3><img src='/src/assets/sliders/1.png' /></h3>
