@@ -9,10 +9,16 @@
             fill: #fff;
         }
     }
+
+    .box-text {
+        color: #24223e;
+        font-weight: 800;
+        font-size: 16px;
+    }
 }
 
 .nav-slider {
-    max-width: 1160px;
+    max-width: 1070px;
     margin: 0 auto;
     width: 55%;
 
@@ -44,7 +50,7 @@
         color: #7b73ae;
         font-weight: 500;
         line-height: normal;
-        font-size: 14px;
+        // font-size: 14px;
     }
 }
 
