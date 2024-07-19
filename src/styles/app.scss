@@ -1,46 +1,47 @@
 .slick-active.slick-center.slick-current {
-
     .parent-box {
-        img {
-            background: linear-gradient(130deg, #24223e, #282642);
-            transform: scale(1.25);
-            filter: drop-shadow(0 5px 20px rgba(127, 118, 179, .1));
-            padding: 10px;
-            border-radius: 14px;
-            color: #fff;
-        }
+        background: linear-gradient(130deg, #24223e, #282642);
+        border-radius: 14px;
+        transform: scale(1.25);
+        text-align: center;
 
-        h4 {
-            margin-top: 12px;
+        svg {
+            fill: #fff;
         }
     }
-
-   
-
 }
 
 .nav-slider {
     max-width: 1160px;
     margin: 0 auto;
 
-    .parent-box {
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        filter: drop-shadow(0 5px 20px rgba(127, 118, 179, .1));
+    .child-coverup {
 
-        margin-top: 25px;
-
-        img {
+        .parent-box {
+            cursor: pointer;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 42%;
             filter: drop-shadow(0 5px 20px rgba(127, 118, 179, .1));
             padding: 10px;
-            border-radius: 14px;
-        }
+            margin: 10px auto 10px;
 
-        h4 {
-            margin-top: 12px;
+            svg {
+                max-block-size: 32px;
+            }
+
+            h4 {
+                margin-top: 12px;
+            }
         }
+    }
+
+    .box-text {
+        color: #7b73ae;
+        font-weight: 500;
+        line-height: normal;
     }
 }
 
@@ -54,7 +55,7 @@
     width: 400px;
 }
 
-.slider-container{
+.slider-container {
     position: relative;
     z-index: 2;
 }
@@ -66,18 +67,12 @@
     background: linear-gradient(#fff, hsla(0, 0%, 100%, 0)) padding-box, linear-gradient(90deg, #45c4f9, #ff0be5) border-box;
 }
 
-.box-text {
-    color: #7b73ae;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: normal;
-    text-align: center;
-}
+
 
 .main-banner {
     margin-top: 5%;
     max-width: 1160px;
-    margin: 5% auto 0;
+    margin: 2% auto 0;
 }
 
 .CuHomeTabs_svgLeft__NRC_E {
@@ -98,6 +93,6 @@
     top: 115px;
 }
 
-.slider-comp{
+.slider-comp {
     position: relative;
 }
