@@ -132,3 +132,45 @@
     }
 
 }
+
+
+@media (max-width: 768px) {
+    .nav-slider {
+        width: 100%;
+    }
+
+    .child-coverup {
+        .parent-box {
+            width: 100%;
+        }
+    }
+
+    .slider-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .main-banner {
+        margin-top: 5%;
+    }
+
+    .CuHomeTabs_svgLeft__NRC_E {
+        left: 0;
+        top: 85px;
+    }
+
+    .CuHomeTabs_svgRight__Cw476 {
+        right: 0px;
+        top: 85px;
+    }
+
+    .flower-background {
+        h2 {
+            width: 80%;
+        }
+
+        p {
+            width: 80%;
+        }
+    }
+}

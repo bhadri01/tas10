@@ -32,6 +32,7 @@ export default function ImageSlider() {
           centerMode={true}
           arrows={false}
           centerPadding="0"
+          speed={1000}
           className='nav-slider center'
           accessibility={true}
           adaptiveHeight={true}
@@ -112,7 +113,7 @@ export default function ImageSlider() {
           </div>
         </Slider>
         <Slider asNavFor={nav2} swipeToSlide={false} touchMove={false} focusOnSelect={false}
-          arrows={false} ref={slider => (sliderRef1 = slider)} className='main-banner'>
+          arrows={false} speed={1000} ref={slider => (sliderRef1 = slider)} className='main-banner'>
           <div>
             <h3><img src='/src/assets/sliders/1.png' /></h3>
           </div>
