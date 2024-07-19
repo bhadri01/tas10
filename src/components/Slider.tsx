@@ -26,14 +26,17 @@ export default function ImageSlider() {
         <Slider
           asNavFor={nav1}
           ref={slider => (sliderRef2 = slider)}
-          slidesToShow={9}
+          slidesToShow={8.5}
           initialSlide={0}
           focusOnSelect={true}
           swipeToSlide={false}
+          touchMove={false}
           centerMode={true}
           arrows={false}
-          centerPadding="0px"
+          centerPadding="0"
           className='nav-slider center'
+          accessibility={true}
+adaptiveHeight={true}
           responsive={[
             {
               breakpoint: 1024,
@@ -110,7 +113,7 @@ export default function ImageSlider() {
             <h4 className='box-text'>AI</h4>
           </div>
         </Slider>
-        <Slider asNavFor={nav2} swipeToSlide={false} focusOnSelect={false}
+        <Slider asNavFor={nav2} swipeToSlide={false} touchMove={false} focusOnSelect={false}
           arrows={false} ref={slider => (sliderRef1 = slider)} className='main-banner'>
           <div>
             <h3><img src='/src/assets/sliders/1.png' /></h3>
