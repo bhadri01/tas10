@@ -21,8 +21,6 @@ export default function ImageSlider() {
       //   width: "80%",
       // }}
       >
-        <h2>Slider Syncing (AsNavFor)</h2>
-        <h4>Second Slider</h4>
         <Slider
           asNavFor={nav1}
           ref={slider => (sliderRef2 = slider)}
