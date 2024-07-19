@@ -26,13 +26,13 @@ export default function ImageSlider() {
         <Slider
           asNavFor={nav1}
           ref={slider => (sliderRef2 = slider)}
-          slidesToShow={9}
+          slidesToShow={8.5}
           initialSlide={0}
           focusOnSelect={true}
           swipeToSlide={false}
           centerMode={true}
           arrows={false}
-          centerPadding="0px"
+          centerPadding="20px"
           className='nav-slider center'
           responsive={[
             {
