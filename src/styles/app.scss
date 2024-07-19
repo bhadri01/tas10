@@ -14,6 +14,7 @@
 .nav-slider {
     max-width: 1160px;
     margin: 0 auto;
+    width: 55%;
 
     .child-coverup {
 
@@ -27,6 +28,7 @@
             filter: drop-shadow(0 5px 20px rgba(127, 118, 179, .1));
             padding: 10px;
             margin: 10px auto 10px;
+            height: 52px;
 
             svg {
                 max-block-size: 32px;
@@ -42,6 +44,7 @@
         color: #7b73ae;
         font-weight: 500;
         line-height: normal;
+        font-size: 14px;
     }
 }
 
@@ -61,18 +64,13 @@
 }
 
 .main-banner {
+    margin-top: 5%;
+    max-width: 1070px;
+    margin: 2% auto 0;
     overflow: hidden;
     border: 1px solid transparent;
     border-radius: 14px;
     background: linear-gradient(#fff, hsla(0, 0%, 100%, 0)) padding-box, linear-gradient(90deg, #45c4f9, #ff0be5) border-box;
-}
-
-
-
-.main-banner {
-    margin-top: 5%;
-    max-width: 1160px;
-    margin: 2% auto 0;
 }
 
 .CuHomeTabs_svgLeft__NRC_E {
