@@ -20,6 +20,8 @@
 }
 
 .nav-slider {
+    max-width: 1160px;
+    margin: 0 auto;
 
     .parent-box {
         display: flex !important;
@@ -52,6 +54,11 @@
     width: 400px;
 }
 
+.slider-container{
+    position: relative;
+    z-index: 2;
+}
+
 .main-banner {
     overflow: hidden;
     border: 1px solid transparent;
@@ -69,4 +76,28 @@
 
 .main-banner {
     margin-top: 5%;
+    max-width: 1160px;
+    margin: 5% auto 0;
+}
+
+.CuHomeTabs_svgLeft__NRC_E {
+    inset-inline-start: -110px;
+    inset-block-start: -5px;
+    position: absolute;
+    z-index: 1;
+    left: 165px;
+    top: 62px;
+}
+
+.CuHomeTabs_svgRight__Cw476 {
+    inset-block-start: -10px;
+    position: absolute;
+    z-index: 1;
+    bottom: -160px;
+    right: 100px;
+    top: 115px;
+}
+
+.slider-comp{
+    position: relative;
 }
