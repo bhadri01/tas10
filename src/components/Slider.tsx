@@ -25,12 +25,11 @@ export default function ImageSlider() {
 
   return (
     <div className="slider-container">
-      <h2>Slider Syncing (AsNavFor)</h2>
       <h4>Second Slider</h4>
       <Slider
         asNavFor={nav1}
         ref={slider2}
-        slidesToShow={10}
+        slidesToShow={9}
         swipeToSlide={true}
         focusOnSelect={true}
         centerMode={true} // Enable center mode

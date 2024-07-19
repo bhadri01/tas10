@@ -6,3 +6,13 @@
     align-items: center;
     font-size: xx-large;
 }
+
+.slick-active.slick-center.slick-current {
+    background: #000;
+    color: #fff;
+}
+
+.slick-slide {
+    // transition: all 0.3s;
+    text-align: center;
+}
