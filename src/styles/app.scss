@@ -371,6 +371,7 @@ nav {
         font-size: 23px;
         cursor: pointer;
         position: relative;
+        box-shadow: 0 4px 4px 0 rgba(87, 75, 172, .15);
 
         &::before {
             background: linear-gradient(254.25deg, #fa12e3 -31.16%, #7612fa 74.17%);
@@ -398,7 +399,7 @@ nav {
             border-radius: 10px
         }
 
-        svg{
+        svg {
             margin-left: 10px;
         }
     }
@@ -412,4 +413,30 @@ nav {
         margin: 10px 0;
     }
 
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .main-top-banner {
+        width: 100%;
+
+        h1 {
+            width: 80%;
+            font-size: 2.5625rem;
+        }
+
+        h3 {
+            width: 80%;
+            font-size: 1.1875rem;
+        }
+
+        button {
+            width: 60%;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    }
 }
