@@ -25,7 +25,7 @@ export default function ImageSlider() {
         focusOnSelect={true}
         centerMode={true}
         arrows={false}
-        centerPadding="10px"
+        centerPadding="0px"
         className='nav-slider'
       >
         <div className='parent-box'>
