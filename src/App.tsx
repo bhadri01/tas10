@@ -1,3 +1,4 @@
+import Cards from "./components/Cards";
 import Flower from "./components/flower";
 import MainBanner from "./components/MainBanner";
 import Navbar from "./components/navbar";
@@ -11,6 +12,7 @@ function App() {
       <MainBanner />
       <ImageSlider />
       <Flower />
+      <Cards />
     </>
   );
 }
