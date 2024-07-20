@@ -121,7 +121,7 @@
         line-height: 1.243902439;
     }
 
-    p{
+    p {
         font-size: 1.5rem;
         font-weight: 500;
         text-align: center;
@@ -171,6 +171,272 @@
 
         p {
             width: 80%;
+        }
+    }
+}
+
+
+
+// Navigation CSS
+
+
+nav {
+    max-width: 1070px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .left-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 30px;
+
+        img {
+            width: 28%;
+            margin-right: 10px;
+            border: 1px solid #eee;
+            border-radius: 14px;
+            padding: 10px;
+            box-shadow: 0 4px 6px 0 rgba(67, 46, 134, .04);
+        }
+
+        ul {
+            --flex-spacing: 3px;
+            block-size: 2.875rem;
+            padding: .3125rem;
+            border: 1px solid #eee;
+            border-radius: 14px;
+            box-shadow: 0 4px 6px 0 rgba(67, 46, 134, .04);
+            width: 100%;
+
+            li {
+                margin-right: 10px !important;
+                font-size: 14px;
+                margin-left: 0;
+
+                a {
+                    color: #000;
+                    text-decoration: none;
+                    font-size: 16px;
+
+                    &:hover {
+                        color: #45c4f9;
+                    }
+                }
+
+                &.log-in {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    ul {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        --flex-spacing: 3px;
+        block-size: 2.875rem;
+        padding: .3125rem;
+        // border: 1px solid #eee;
+        border-radius: 14px;
+        // box-shadow: 0 4px 6px 0 rgba(67, 46, 134, .04);
+
+        li {
+            margin: 0 1rem;
+            font-size: 14px;
+
+            a {
+                color: #000;
+                text-decoration: none;
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: #45c4f9;
+                }
+            }
+
+            &.sign-up {
+                background: #fff;
+                color: #fff !important;
+                padding: 6px 2px;
+                border-radius: 14px;
+                font-weight: 800;
+
+                margin-right: 0px;
+                border: 1px solid #eee;
+                // margin-right: -px;
+
+                a {
+                    font-size: 14px;
+                    padding: 8px;
+                    color: #fff !important;
+                    position: relative;
+                    z-index: 9;
+
+                    &::before {
+                        background: linear-gradient(254.25deg, #fa12e3 -31.16%, #7612fa 74.17%);
+                        content: '';
+                        box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2), inset -1px -1px 0 0 rgba(0, 0, 0, .2);
+                        pointer-events: none;
+                        transition: opacity .1s ease-out;
+                        position: absolute;
+                        inset: 0;
+                        z-index: -1;
+                        border-radius: 10px
+                    }
+
+                    &::after {
+                        background: linear-gradient(263.31deg, #fa12e3 -35.15%, #7612fa 40.89%, #12d0fa 134.61%);
+                        opacity: 1;
+                        transition-duration: .2s;
+                        content: '';
+                        box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2), inset -1px -1px 0 0 rgba(0, 0, 0, .2);
+                        pointer-events: none;
+                        transition: opacity .1s ease-out;
+                        position: absolute;
+                        inset: 0;
+                        z-index: -1;
+                        border-radius: 10px
+                    }
+                }
+
+
+
+            }
+        }
+    }
+}
+
+// Navigation CSS Ends
+
+.main-top-banner {
+    max-width: 1070px;
+    margin: 0 auto;
+    width: 55%;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        width: 52%;
+        margin: 0 auto;
+        word-wrap: break-word;
+        line-height: 1.243902439;
+        margin-top: 5%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 1.243902439;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.243902439;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 12px;
+        color: #fff;
+        padding: 15px 20px;
+        border-radius: 14px;
+        font-weight: 700;
+        margin-top: 20px;
+        border: none;
+        font-size: 23px;
+        cursor: pointer;
+        position: relative;
+        box-shadow: 0 4px 4px 0 rgba(87, 75, 172, .15);
+
+        &::before {
+            background: linear-gradient(254.25deg, #fa12e3 -31.16%, #7612fa 74.17%);
+            content: '';
+            box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2), inset -1px -1px 0 0 rgba(0, 0, 0, .2);
+            pointer-events: none;
+            transition: opacity .1s ease-out;
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            border-radius: 10px
+        }
+
+        &::after {
+            background: linear-gradient(263.31deg, #fa12e3 -35.15%, #7612fa 40.89%, #12d0fa 134.61%);
+            opacity: 1;
+            transition-duration: .2s;
+            content: '';
+            box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2), inset -1px -1px 0 0 rgba(0, 0, 0, .2);
+            pointer-events: none;
+            transition: opacity .1s ease-out;
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            border-radius: 10px
+        }
+
+        svg {
+            margin-left: 10px;
+        }
+    }
+
+    p {
+        color: grey;
+        font-size: 15px;
+        margin-block-start: 0;
+        font-weight: 500;
+        cursor: move;
+        margin: 10px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .main-top-banner {
+        width: 100%;
+
+        h1 {
+            width: 80%;
+            font-size: 2.5625rem;
+        }
+
+        h3 {
+            width: 80%;
+            font-size: 1.1875rem;
+        }
+
+        button {
+            width: 60%;
+            font-size: 18px;
+            padding: 10px 20px;
         }
     }
 }
