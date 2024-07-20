@@ -473,7 +473,7 @@ nav {
         .card {
             width: 30%;
             margin: 0 auto;
-            padding: 10px;
+            padding: 25px;
             border-radius: 14px;
             box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
             background: #fff;
@@ -652,7 +652,7 @@ nav {
                     .img-box {
                         background: #fff;
                         padding: 9px;
-                        box-shadow: 0 6px 20px -6px rgba(0, 0, 0, .4);
+                        box-shadow: 0 6px 6px -6px rgba(0, 0, 0, .4);
                         position: relative;
                         border: 1px solid #ccc;
 
@@ -695,6 +695,61 @@ nav {
                     }
                 }
             }
+        }
+    }
+}
+
+
+.plan-main {
+    background: linear-gradient(45deg, #fa12e3, transparent);
+
+    #plan {
+        max-width: 1070px;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        padding: 20px 0;
+
+        .container {
+            .plan-sec {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        }
+
+        h3 {
+            font-size: 28px;
+            font-family: Montserrat Alternates;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .blue-zone {
+            // display: flex;
+            padding: 10px;
+
+            .free {
+                background: #00a7f1;
+                color: #fff;
+                text-align: center;
+                border-radius: 8px;
+            }
+
+            .points {
+                background: #fff;
+            }
+        }
+
+        p {
+            font-family: Poppins;
+            color: #000;
+            line-height: 1.8;
+            font-size: 14px;
+            font-weight: 300;
         }
     }
 }
