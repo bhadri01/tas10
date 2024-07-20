@@ -31,7 +31,7 @@ const Pricing: React.FC = () => {
                         <h2>ECONOMY</h2>
                         <p>Professional features for your business to grow.</p>
                     </div>
-                    <h1>₹269</h1>
+                    <h1><span>₹</span>269</h1>
                     <h5>For 100 Assets</h5>
                     <ul>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
@@ -47,7 +47,7 @@ const Pricing: React.FC = () => {
                         <h2>DELUXE</h2>
                         <p>Advanced features for your business to grow.</p>
                     </div>
-                    <h1>₹439</h1>
+                    <h1><span>₹</span>439</h1>
                     <h5>For 1000 Assets</h5>
                     <ul>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
@@ -63,7 +63,7 @@ const Pricing: React.FC = () => {
                         <h2>ULTIMATE</h2>
                         <p>Advanced features for your business to grow.</p>
                     </div>
-                    <h1>₹599</h1>
+                    <h1><span>₹</span>599</h1>
                     <h5>For 10000 Assets</h5>
                     <ul>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
