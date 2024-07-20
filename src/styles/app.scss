@@ -442,7 +442,8 @@ nav {
     }
 }
 
-section.Cards-main {
+.Cards-main {
+    position: relative;
     .flower-background {
         h2 {
             width: 33%;
@@ -464,6 +465,8 @@ section.Cards-main {
         max-width: 1070px;
         margin: 0 auto;
         width: 100%;
+        position: relative;
+        z-index: 99;
 
         .card {
             width: 30%;
@@ -513,6 +516,17 @@ section.Cards-main {
 
         }
     }
+
+    .svg-image{
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        transform: rotate(180deg);
+        width: 65%;
+        margin: 0 auto;
+        right: 17%;
+        top: 37%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -526,6 +540,62 @@ section.Cards-main {
         .cards {
             .card {
                 width: 90%;
+            }
+        }
+    }
+}
+
+.tiles-main{
+    max-width: 1070px;
+    margin: 0 auto;
+    width: 55%;
+    text-align: center;
+    .tile{
+        display: flex;
+        // flex-direction: column;
+        .tile-row{
+            display: flex;
+            width: 100%;
+            margin: 0 auto;
+            flex-direction: column;
+            .tile-box{
+                width: 93%;
+                padding: 10px;
+                border-radius: 14px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                margin-bottom: 12px;
+                background: #fbfafc;
+                img{
+                    width: 100%;
+                    border-radius: 14px;
+                }
+                h3{
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 28px;
+                    margin: 3% 0;
+                    text-align: center;
+                }
+                p{
+                    font-weight: 500;
+                    margin-top: 10px;
+                    margin-block-start: 9px;
+                    // color: #fff;
+                    font-weight: 500;
+                    line-height: 24px;
+                }
+                // &.tile1{
+                //     background: linear-gradient(352deg, #5037E7 6.96%, #EB00FF 107.25%);
+                //     color: #fff;
+                // }
+                // &.tile2{
+                //     background: linear-gradient(352deg, #6731EC 1.65%, #44CFFF 118.4%);
+                //     color: #fff;
+                // }
+                // &.tile3{
+                //     background: linear-gradient(170deg, #6731EC 1.65%, #44CFFF 118.4%);
+                //     color: #fff;
+                // }
             }
         }
     }

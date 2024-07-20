@@ -24,6 +24,9 @@ const Cards: React.FC = () => {
                     <p>The Mobile device client enables you to view asset information in real time, with the added ability to store-and-forward for those times you are in a connected environment.</p>
                 </div>
             </div>
+            <div className='svg-image'>
+                <img src='/src/assets/background-for-cards.svg' alt='background' />
+            </div>
         </section>
     );
 };
