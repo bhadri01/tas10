@@ -4,6 +4,8 @@ import Cards from './Cards';
 import Flower from './flower';
 import ImageSlider from './Slider';
 import Tiles from './Tiles';
+import Testimonial from './Testimonial';
+import PlanBanner from './PlanBanner';
 
 const Home: React.FC = () => {
     return (
@@ -12,7 +14,8 @@ const Home: React.FC = () => {
             <ImageSlider />
             <Flower />
             <Cards />
-            <Tiles />
+            {/* <PlanBanner /> */}
+            <Testimonial />
         </>
     );
 };

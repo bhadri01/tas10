@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/pricing.scss';
+import Tiles from './Tiles';
 
 const Pricing: React.FC = () => {
     return (
@@ -20,9 +21,9 @@ const Pricing: React.FC = () => {
                     <ul>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Free trail</button>
                 </div>
@@ -37,8 +38,8 @@ const Pricing: React.FC = () => {
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
@@ -54,7 +55,7 @@ const Pricing: React.FC = () => {
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
                         <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
@@ -75,6 +76,7 @@ const Pricing: React.FC = () => {
                     <button>Buy now</button>
                 </div>
             </div>
+            <Tiles />
         </div>
     );
 };
