@@ -550,8 +550,9 @@ nav {
 .tiles-main {
     max-width: 1070px;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
     text-align: center;
+    margin-top: 4%;
 
     .flower-background {
         h3 {
@@ -573,7 +574,7 @@ nav {
                 width: 93%;
                 padding: 30px;
                 border-radius: 14px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
                 margin-bottom: 12px;
                 // background: #fbfafc;
                 border: 1px solid rgba(206, 206, 234);
@@ -615,4 +616,8 @@ nav {
             }
         }
     }
+}
+
+.Testimonials{
+    margin-bottom: 5%;
 }
