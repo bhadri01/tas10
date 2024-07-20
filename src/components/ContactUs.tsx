@@ -1,26 +1,38 @@
 import React, { useState } from 'react';
+import "../styles/contact-us.scss";
 
 const ContactUs = () => {
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [workEmail, setWorkEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [company, setCompany] = useState('');
-    const [numEmployees, setNumEmployees] = useState('');
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        workEmail: '',
+        phone: '',
+        company: '',
+        numEmployees: ''
+    });
 
-    const handleSubmit = (e: { preventDefault: () => void; }) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+        const { name, value } = e.target;
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Handle form submission logic here
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='contact-form'>
             <label>
                 First Name:
                 <input
                     type="text"
-                    value={firstName}
-                    onChange={(e) => setFirstName(e.target.value)}
+                    name="firstName"
+                    value={formData.firstName}
+                    onChange={handleChange}
                 />
             </label>
             <br />
@@ -28,8 +40,9 @@ const ContactUs = () => {
                 Last Name:
                 <input
                     type="text"
-                    value={lastName}
-                    onChange={(e) => setLastName(e.target.value)}
+                    name="lastName"
+                    value={formData.lastName}
+                    onChange={handleChange}
                 />
             </label>
             <br />
@@ -37,8 +50,9 @@ const ContactUs = () => {
                 Work Email:
                 <input
                     type="email"
-                    value={workEmail}
-                    onChange={(e) => setWorkEmail(e.target.value)}
+                    name="workEmail"
+                    value={formData.workEmail}
+                    onChange={handleChange}
                 />
             </label>
             <br />
@@ -46,8 +60,9 @@ const ContactUs = () => {
                 Phone:
                 <input
                     type="tel"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
                 />
             </label>
             <br />
@@ -55,16 +70,18 @@ const ContactUs = () => {
                 Company:
                 <input
                     type="text"
-                    value={company}
-                    onChange={(e) => setCompany(e.target.value)}
+                    name="company"
+                    value={formData.company}
+                    onChange={handleChange}
                 />
             </label>
             <br />
             <label>
                 Number of Employees:
                 <select
-                    value={numEmployees}
-                    onChange={(e) => setNumEmployees(e.target.value)}
+                    name="numEmployees"
+                    value={formData.numEmployees}
+                    onChange={handleChange}
                 >
                     <option value="">Select</option>
                     <option value="1-10">1-10</option>
