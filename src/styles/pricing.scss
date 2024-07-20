@@ -1,0 +1,112 @@
+.pricing-main {
+    max-width: 1070px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        width: 72%;
+        margin: 0 auto;
+        word-wrap: break-word;
+        line-height: 1.243902439;
+        margin-top: 5%;
+    }
+
+    .para {
+        color: #7f76b3;
+        font-size: 15px;
+        margin: 10px auto;
+        // font-family: Axiforma;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        border: 1px solid;
+       
+        border-radius: 5px;
+
+        .card {
+            width: 25%;
+            padding: 1%;
+            text-align: center;
+            border-right: 1px solid;
+            // border: 1px solid;
+            // padding: 1%;
+            // border-radius: 5px;
+
+            &.card1 {
+                h2 {
+                    color: rgb(0, 184, 132);
+                }
+
+                h1 {
+                    color: rgb(0, 184, 132);
+                }
+
+                button {
+                    background-color: rgb(0, 184, 132);
+
+                }
+            }
+
+            &.card2 {
+                h2 {
+                    color: rgb(250, 18, 227);
+                }
+
+                h1 {
+                    color: rgb(250, 18, 227);
+                }
+
+                button {
+                    background-color: rgb(250, 18, 227);
+                }
+            }
+
+            &.card3 {
+                h2 {
+                    color: rgb(31, 124, 255);
+                }
+
+                h1 {
+                    color: rgb(31, 124, 255);
+                }
+
+                button {
+                    background-color: rgb(31, 124, 255);
+                }
+
+            }
+
+            &.card4 {
+                h2 {
+                    color: rgb(44, 42, 65);
+                }
+
+                h1 {
+                    color: rgb(44, 42, 65);
+                }
+
+                button {
+                    background-color: rgb(44, 42, 65);
+                }
+            }
+
+            h2 {
+                font-weight: 900;
+                font-size: 1.5rem;
+                text-align: left;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+}
