@@ -158,3 +158,21 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .pricing-main {
+        h1 {
+            font-size: 2.5rem;
+            width: 90%;
+        }
+
+        .cards {
+            .card {
+                width: 90%;
+                margin: 10px auto;
+            }
+        }
+    }
+    
+
+}

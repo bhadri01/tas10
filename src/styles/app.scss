@@ -167,7 +167,7 @@
 
     .flower-background {
         h2 {
-            width: 80%;
+            width: 80% !important;
         }
 
         p {
@@ -616,6 +616,29 @@ nav {
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    .tiles-main {
+        .flower-background {
+            h3 {
+                width: 80%;
+            }
+        }
+
+        .tile {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+
+            .tile-row {
+                .tile-box {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 }
 
 .Testimonials {
