@@ -4,37 +4,151 @@ import Slider from 'react-slick';
 const Testimonial: React.FC = () => {
     return (
         <div className='Testimonials'>
-            <h1>Testimonials</h1>
+            <h1>AN ASSET MANAGEMENT EXPERIENCE PEOPLE
+                LOVE TO TALK ABOUT</h1>
             <div className="slider">
-                <Slider swipeToSlide={true} touchMove={true} focusOnSelect={true} infinite={true} slidesToShow={3} slidesToScroll={1} autoplay={true} autoplaySpeed={5000} dots={true}
-                adaptiveHeight={true} waitForAnimate={true}
-                    arrows={true} speed={1000} className='main-banner'>
-                    <div>
-                        <h3><img src='/src/assets/sliders/1.png' /></h3>
+                <Slider swipeToSlide={true} touchMove={true} focusOnSelect={true} infinite={true} slidesToShow={3} slidesToScroll={1} autoplay={true} autoplaySpeed={2000} dots={true}
+                    adaptiveHeight={true} waitForAnimate={true}
+                    arrows={false} speed={1000} className='test-slider'>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/2.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/3.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/4.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/5.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/6.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/7.png' /></h3>
-                    </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/8.png' /></h3>
-                    </div>
-                    <div>
-                        <h3><img src='/src/assets/sliders/9.png' /></h3>
+                    <div className='row'>
+                        <div className="col-sm-4">
+                            <div className="img-box">
+                                <div className="thumb">
+                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                </div>
+                                <div className="testimonial-content">
+                                    <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
+                                    <p>
+                                        <img className="comma" src="/src/assets/comma.png" />
+                                    </p>
+                                    <div className="text">
+                                        <p>
+                                            Work from anyplace and on any device. Regardless of wherever they're, your team will keep productive. On-line plus trailing extends your ability to receive and manage critical data concerning your valuable property.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </Slider>
             </div>

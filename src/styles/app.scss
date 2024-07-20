@@ -618,6 +618,83 @@ nav {
     }
 }
 
-.Testimonials{
+.Testimonials {
+    max-width: 1070px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
     margin-bottom: 5%;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        width: 72%;
+        margin: 0 auto;
+        word-wrap: break-word;
+        line-height: 1.243902439;
+        margin-top: 5%;
+    }
+
+    .slider {
+        .test-slider {
+            // height: 500px;
+
+            .row {
+                width: 90% !important;
+
+                .col-sm-4 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 10px auto;
+
+                    .img-box {
+                        background: #fff;
+                        padding: 9px;
+                        box-shadow: 0 6px 20px -6px rgba(0, 0, 0, .4);
+                        position: relative;
+                        border: 1px solid #ccc;
+
+                        .thumb {
+                            width: 90px;
+                            height: 90px;
+                            z-index: 999;
+                            position: absolute;
+                            left: 30%;
+                            top: 10%;
+                            -webkit-transform: translate3d(-50%, -50%, 0);
+                            transform: translate3d(-50%, -50%, 0);
+
+                            .img-fluid {
+                                width: 100%;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .testimonial-content {
+                            padding: 10px;
+                            background: #fff;
+                            margin: 20px;
+
+                            .name {
+                                margin-top: 14%;
+                                float: left;
+                                margin-left: 13%;
+                            }
+
+                            .comma {
+                                float: right;
+                                width: 84px;
+                            }
+
+                            .text {
+                                margin-top: 119px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
