@@ -550,7 +550,7 @@ nav {
 .tiles-main {
     max-width: 1070px;
     margin: 0 auto;
-    width: 55%;
+    width: 85%;
     text-align: center;
 
     .flower-background {
@@ -571,11 +571,12 @@ nav {
 
             .tile-box {
                 width: 93%;
-                padding: 10px;
+                padding: 30px;
                 border-radius: 14px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
                 margin-bottom: 12px;
-                background: #fbfafc;
+                // background: #fbfafc;
+                border: 1px solid rgba(206, 206, 234);
 
                 img {
                     width: 100%;
@@ -583,7 +584,7 @@ nav {
                 }
 
                 h3 {
-                    font-weight: 800;
+                    font-weight: 900;
                     font-size: 20px;
                     line-height: 28px;
                     margin: 3% 0;
@@ -594,9 +595,9 @@ nav {
                     font-weight: 500;
                     margin-top: 10px;
                     margin-block-start: 9px;
-                    // color: #fff;
                     font-weight: 500;
-                    line-height: 24px;
+                    font-size: .8125rem;
+                    line-height: 1.3846153846;
                 }
 
                 // &.tile1{

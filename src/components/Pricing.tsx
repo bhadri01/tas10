@@ -11,51 +11,66 @@ const Pricing: React.FC = () => {
             </div>
             <div className='cards'>
                 <div className="card card1">
-                    <h2>STARTER</h2>
-                    <p>Starter features for your business to grow.</p>
-                    <h1>₹439</h1>
+                    <div>
+                        <h2>STARTER</h2>
+                        <p>Starter features for your business to grow.</p>
+                    </div>
+                    <h1>Free</h1>
+                    <h5>For 10 Assets</h5>
                     <ul>
-                        <li>Feature 1</li>
-                        <li>Feature 2</li>
-                        <li>Feature 3</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Free trail</button>
                 </div>
                 <div className="card card2">
-                    <h2>ECONOMY</h2>
-                    <p>Professional features for your business to grow.</p>
-                    <h1>₹439</h1>
+                    <div>
+                        <h2>ECONOMY</h2>
+                        <p>Professional features for your business to grow.</p>
+                    </div>
+                    <h1>₹269</h1>
+                    <h5>For 100 Assets</h5>
                     <ul>
-                        <li>Feature 1</li>
-                        <li>Feature 2</li>
-                        <li>Feature 3</li>
-                        <li>Feature 4</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
                 <div className="card card3">
-                    <h2>DELUXE</h2>
-                    <p>Advanced features for your business to grow.</p>
+                    <div>
+                        <h2>DELUXE</h2>
+                        <p>Advanced features for your business to grow.</p>
+                    </div>
                     <h1>₹439</h1>
+                    <h5>For 1000 Assets</h5>
                     <ul>
-                        <li>Feature 1</li>
-                        <li>Feature 2</li>
-                        <li>Feature 3</li>
-                        <li>Feature 4</li>
-                        <li>Feature 5</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
                 <div className="card card4">
-                    <h2>ULTIMATE</h2>
-                    <p>Advanced features for your business to grow.</p>
-                    <h1>₹439</h1>
+                    <div>
+                        <h2>ULTIMATE</h2>
+                        <p>Advanced features for your business to grow.</p>
+                    </div>
+                    <h1>₹599</h1>
+                    <h5>For 10000 Assets</h5>
                     <ul>
-                        <li>Feature 1</li>
-                        <li>Feature 2</li>
-                        <li>Feature 3</li>
-                        <li>Feature 4</li>
-                        <li>Feature 5</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
