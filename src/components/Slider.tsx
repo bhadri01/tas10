@@ -4,10 +4,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export default function ImageSlider() {
-  const [nav1, setNav1] = useState<any>(null);
-  const [nav2, setNav2] = useState<any>(null);
-  let sliderRef1 = useRef<React.MutableRefObject<Slider | null> | null>(null);
-  let sliderRef2 = useRef<React.MutableRefObject<Slider | null> | null>(null);
+  const [nav1, setNav1] = useState<any>();
+  const [nav2, setNav2] = useState<any>();
+  // let sliderRef1 = useRef<React.MutableRefObject<Slider | null> | null>(null);
+  // let sliderRef2 = useRef<React.MutableRefObject<Slider | null> | null>(null);
+
+  const sliderRef1 = useRef<Slider | null>(null);
+  const sliderRef2 = useRef<Slider | null>(null);
 
   useEffect(() => {
     setNav1(sliderRef1);
@@ -23,7 +26,7 @@ export default function ImageSlider() {
       >
         <Slider
           asNavFor={nav1}
-          ref={slider => (sliderRef2 = slider)}
+          ref={slider => ((sliderRef2) = slider)}
           slidesToShow={7}
           initialSlide={0}
           focusOnSelect={true}
