@@ -200,13 +200,13 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #fff;
         border-radius: 30px;
 
         img {
             width: 28%;
             margin-right: 10px;
             border: 1px solid #eee;
+            background: #fff;
             border-radius: 14px;
             padding: 10px;
             box-shadow: 0 4px 6px 0 rgba(67, 46, 134, .04);
@@ -271,13 +271,12 @@ nav {
             }
 
             &.sign-up {
-                background: #fff;
                 color: #fff !important;
-                padding: 6px 2px;
+                // padding: 6px 2px;
                 border-radius: 14px;
                 font-weight: 800;
 
-                margin-right: 0px;
+                margin: 0px;
                 border: 1px solid #eee;
                 // margin-right: -px;
 
