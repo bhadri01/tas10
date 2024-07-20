@@ -444,16 +444,19 @@ nav {
 
 .Cards-main {
     position: relative;
+
     .flower-background {
         h2 {
             width: 33%;
             margin-bottom: 1%;
         }
+
         p {
             font-size: 1.0625rem;
             line-height: 1.4117647059;
             width: 50%;
         }
+
         margin: 0 auto 2%;
     }
 
@@ -473,7 +476,7 @@ nav {
             margin: 0 auto;
             padding: 10px;
             border-radius: 14px;
-            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
             background: #fff;
             margin-bottom: 20px;
 
@@ -517,10 +520,10 @@ nav {
         }
     }
 
-    .svg-image{
+    .svg-image {
         position: absolute;
         z-index: 1;
-        bottom: 0;
+        bottom: -90px;
         transform: rotate(180deg);
         width: 65%;
         margin: 0 auto;
@@ -545,38 +548,50 @@ nav {
     }
 }
 
-.tiles-main{
+.tiles-main {
     max-width: 1070px;
     margin: 0 auto;
     width: 55%;
     text-align: center;
-    .tile{
+
+    .flower-background {
+        h3 {
+            width: 50%;
+        }
+    }
+
+    .tile {
         display: flex;
+
         // flex-direction: column;
-        .tile-row{
+        .tile-row {
             display: flex;
             width: 100%;
             margin: 0 auto;
             flex-direction: column;
-            .tile-box{
+
+            .tile-box {
                 width: 93%;
                 padding: 10px;
                 border-radius: 14px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
                 margin-bottom: 12px;
                 background: #fbfafc;
-                img{
+
+                img {
                     width: 100%;
                     border-radius: 14px;
                 }
-                h3{
+
+                h3 {
                     font-weight: 800;
                     font-size: 20px;
                     line-height: 28px;
                     margin: 3% 0;
                     text-align: center;
                 }
-                p{
+
+                p {
                     font-weight: 500;
                     margin-top: 10px;
                     margin-block-start: 9px;
@@ -584,6 +599,7 @@ nav {
                     font-weight: 500;
                     line-height: 24px;
                 }
+
                 // &.tile1{
                 //     background: linear-gradient(352deg, #5037E7 6.96%, #EB00FF 107.25%);
                 //     color: #fff;
