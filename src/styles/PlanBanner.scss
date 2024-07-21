@@ -1,97 +1,168 @@
 .plan-main {
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background: linear-gradient(45deg, #fa12e3, transparent);
 
+    #plan {
+        max-width: 1070px;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        padding: 20px 0;
 
-    .row.plan-sec {
-        display: flex;
-        flex-direction: column;
-    }
+        .container {
+            .plan-sec {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
 
-    .offset-lg-2.col-lg-5.col-sm-6 {
+                .col-lg-4 {
+                    width: 35%;
+                }
 
-        // width: 100%;
-        .row.blue-zone {
-            display: flex;
+                .col-lg-5 {
+                    width: 49%;
+                }
 
-            .points {
-                div {
-                    padding: 10px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    align-items: self-start;
-                    height: 100%;
+                .col-lg-4.text-title {
+                    .content {
+                        h3 {
+                            font-size: 28px;
+                            text-transform: uppercase;
+                            font-weight: 900;
+                        }
+                    }
 
-                    p {
+                }
+
+                .offset-lg-2.col-lg-5.col-sm-6 {
+
+                    // width: 100%;
+                    .row.blue-zone {
+                        padding: 10px;
+
                         display: flex;
-                        align-items: center;
-                        justify-content: flex-start;
-                        font-size: 1.2rem;
-                        font-weight: 500;
 
-                        img {
-                            margin-right: 10px;
+                        .points {
+                            background: #fff;
+                            border-top-right-radius: 10px;
+                            border-bottom-right-radius: 10px;
 
+                            div {
+                                padding: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                align-items: self-start;
+                                height: 100%;
+
+                                p {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start;
+                                    font-size: 1.2rem;
+                                    font-weight: 500;
+
+                                    img {
+                                        margin-right: 10px;
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .free {
+                            border-top-left-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                            background: #00a7f1;
+                            color: #fff;
+                            text-align: center;
+
+                            h5 {
+                                font-size: 1.5rem;
+                                font-weight: 500;
+                                margin-bottom: 10px;
+                                line-height: 1.4em;
+                            }
+
+                            p {
+                                padding: 1px;
+                                margin: 2%;
+                                color: #fff;
+                                line-height: 1.8;
+                                font-size: 14px;
+                                color: #fff;
+                            }
+
+                            h1 {
+                                font-size: 3.8em;
+                                line-height: 1.15em;
+                            }
+
+                            .tryfree {
+                                padding: 6px 18px;
+                                font-size: 12px;
+                                text-align: center;
+                                font-family: Poppins;
+                                cursor: pointer;
+                                color: #fff;
+                                background: 0 0;
+                                border: 1px solid #fff;
+                                border-radius: 25px;
+                                margin: 20px 0;
+                                outline: 0 !important;
+                            }
+
+                            font-size: 1.25em;
                         }
                     }
                 }
             }
-
-            .free {
-                h5 {
-                    font-size: 1.5rem;
-                    font-weight: 500;
-                    margin-bottom: 10px;
-                    line-height: 1.4em;
-                }
-
-                p {
-                    padding: 1px;
-                    margin: 2%;
-                    color: #fff;
-                    line-height: 1.8;
-                    font-size: 14px;
-                    color: #fff;
-                }
-
-                h1 {
-                    font-size: 3.8em;
-                    line-height: 1.15em;
-                }
-
-                .tryfree {
-                    padding: 6px 18px;
-                    font-size: 12px;
-                    text-align: center;
-                    font-family: Poppins;
-                    cursor: pointer;
-                    color: #fff;
-                    background: 0 0;
-                    border: 1px solid #fff;
-                    border-radius: 25px;
-                    margin: 20px 0;
-                    outline: 0 !important;
-                }
-
-                font-size: 1.25em;
-            }
         }
+
     }
+
+
+
 
 }
 
 @media screen and (max-width: 768px) {
     .plan-main {
+
+        .row.plan-sec {
+            display: flex;
+            flex-direction: row;
+
+            .col-lg-4 {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .col-lg-5 {
+                width: 49%;
+            }
+        }
+
         .offset-lg-2.col-lg-5.col-sm-6 {
             width: 100%;
+
             .row.blue-zone {
+                width: 90%;
+                margin: 0 auto;
+
                 .free {
                     h1 {
                         font-size: 2.5em;
                     }
                 }
+
+                .points {
+                    border-radius: 10px;
+                }
             }
         }
     }
-
 }

@@ -725,6 +725,7 @@ nav {
 @media screen and (max-width: 768px) {
     .Testimonials {
         margin-bottom: 10%;
+
         h1 {
             font-size: 2.5625rem;
         }
@@ -762,52 +763,6 @@ nav {
         }
     }
 
-}
-
-
-.plan-main {
-    background: linear-gradient(45deg, #fa12e3, transparent);
-
-    #plan {
-        max-width: 1070px;
-        margin: 0 auto;
-        width: 100%;
-        text-align: center;
-        margin-top: 4%;
-        margin-bottom: 5%;
-        padding: 20px 0;
-
-        .container {
-            .plan-sec {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                align-items: center;
-            }
-        }
-
-        h3 {
-            font-size: 28px;
-            text-transform: uppercase;
-            font-weight: 900;
-        }
-
-        .blue-zone {
-            // display: flex;
-            padding: 10px;
-
-            .free {
-                background: #00a7f1;
-                color: #fff;
-                text-align: center;
-                border-radius: 8px;
-            }
-
-            .points {
-                background: #fff;
-            }
-        }
-    }
 }
 
 

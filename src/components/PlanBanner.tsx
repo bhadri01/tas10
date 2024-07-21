@@ -6,7 +6,7 @@ return (
    <section id="plan">
       <div className="container">
          <div className="row plan-sec">
-            <div className="col-lg-4 float-lg-left ">
+            <div className="col-lg-4 text-title ">
                <div className="content">
                   <h3>Choose the plan
                      <span> that fits your needs</span>
