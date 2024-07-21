@@ -37,7 +37,6 @@ const ContactUs = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <br />
                 <label>
                     Last Name:
                     <input
@@ -47,7 +46,6 @@ const ContactUs = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <br />
                 <label>
                     Work Email:
                     <input
@@ -57,7 +55,6 @@ const ContactUs = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <br />
                 <label>
                     Phone:
                     <input
@@ -67,7 +64,6 @@ const ContactUs = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <br />
                 <label>
                     Company:
                     <input
@@ -77,7 +73,6 @@ const ContactUs = () => {
                         onChange={handleChange}
                     />
                 </label>
-                <br />
                 <label>
                     Number of Employees:
                     <select
@@ -92,11 +87,10 @@ const ContactUs = () => {
                         <option value="101+">101+</option>
                     </select>
                 </label>
-                <br />
                 <button type="submit">Submit</button>
             </form>
 
-            <iframe frameBorder="0" height="650" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.3834036396004!2d80.23891665785588!3d13.050509997701042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665bbf60e533%3A0x6da55abfb21035b!2sInvent+SoftLabs+(India)+Private+Limited!5e0!3m2!1sen!2sus!4v1521013531175"></iframe>
+            <iframe frameBorder="0" height="500" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.3834036396004!2d80.23891665785588!3d13.050509997701042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52665bbf60e533%3A0x6da55abfb21035b!2sInvent+SoftLabs+(India)+Private+Limited!5e0!3m2!1sen!2sus!4v1521013531175"></iframe>
         </section>
     );
 };

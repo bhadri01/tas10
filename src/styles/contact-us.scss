@@ -3,11 +3,9 @@ section.contact-us {
     justify-content: center;
 
     max-width: 1070px;
-    margin: 0 auto;
+    margin: 2% auto;
     width: 100%;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
     padding: 20px 0;
 
     .contact-form {
@@ -39,7 +37,7 @@ section.contact-us {
             color: #000;
         }
 
-        select{
+        select {
             margin-bottom: 1rem;
             padding: 0.5rem;
             border: 1px solid #ccc;
@@ -71,6 +69,36 @@ section.contact-us {
                 outline: none;
             }
 
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    section.contact-us {
+        flex-direction: column;
+        width: 90%;
+
+        .contact-form {
+            margin-bottom: 20px;
+            label {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            input {
+                width: 88%;
+                margin-top: 10px;
+            }
+
+            select {
+                width: 88%;
+                margin-top: 10px;
+            }
+
+            textarea {
+                width: 88%;
+            }
         }
     }
 
