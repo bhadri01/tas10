@@ -13,7 +13,7 @@ return (
                   </h3>
                   <p>Pricing scales from 100 employees to very large implementations with over 10,000 assets</p>
                   <a>
-                     <p >For More Details </p>
+                     <p className='more-details'>For More Details </p>
                   </a>
                </div>
             </div>
