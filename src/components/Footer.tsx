@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
             <section className="footer-box">
                 <div className="footer-content">
                     <div className="footer-content-box social">
-                        <img src="/src/assets/main-office-logo/logo-v3-clickup-light.svg" alt="logo" />
+                        <img src="/src/assets/main-office-logo/logo-white.png" alt="logo" />
 
                         <div className="footer-social">
                             <a href="/"><img src="/src/assets/social-icons/linkedIn.svg" alt="linkedin" /></a>
