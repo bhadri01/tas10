@@ -53,17 +53,44 @@
         z-index: 9999;
 
         .close-btn {
-            position: absolute;
-            top: 10px; // Adjust as needed
-            right: 10px; // Adjust as needed
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // position: absolute;
+
             cursor: pointer;
-            z-index: 999999;
-            // Style your close button ('X') here (size, color, etc.)
+            padding: 10px 15px;
+
+            img{
+                fill: #fff;
+                stroke: #fff;
+                background: rgb(241,241,249);
+                padding: 10px;
+                width: 11%;
+                border-radius: 20%;
+            }
         }
     }
 
     .navbar.open {
         right: 0;
+        padding: 7px 0;
+
+        .menu-list-items {
+            flex-direction: column;
+            align-items: flex-start;
+
+            li {
+                padding: 10px 20px;
+                width: 100%;
+                margin: 0 auto;
+                text-align: left;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
         /* Slide in */
     }
 

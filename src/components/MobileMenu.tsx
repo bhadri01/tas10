@@ -27,6 +27,16 @@ const MobileMenu: React.FC = () => {
         setIsNavbarOpen(false); // Close the menu when the location changes
     }, [location.pathname]); // Depend on location.pathname to trigger the effect
 
+    useEffect(() => {
+        if (isNavbarOpen) {
+            // Prevent scrolling
+            document.body.style.overflow = 'hidden';
+        } else {
+            // Allow scrolling
+            document.body.style.overflow = '';
+        }
+    }, [isNavbarOpen]);
+
     return (
         <>
             <div className="menu-icon">
@@ -47,15 +57,18 @@ const MobileMenu: React.FC = () => {
                 </svg>
             </div>
             <nav ref={navbarRef} className={`navbar ${isNavbarOpen ? 'open' : ''}`}>
-                <div className="close-btn" onClick={() => setIsNavbarOpen(false)}>
-                    <img src='/src/assets/close.svg' alt='close' />
+                <div className="close-btn" >
+                    <ul>
+                        <li className='sign-up'><Link to="/login">Login</Link></li>
+                        {/* Add more links here */}
+                    </ul>
+                    <img src='/src/assets/close.svg' alt='close' onClick={() => setIsNavbarOpen(false)} />
                 </div>
-                <ul>
-                    <li><Link to="/contact-us">Contact Us</Link></li>
-                    {/* Add more links here */}
-                </ul>
-                <ul>
-                    <li className='sign-up'><Link to="/login">Login</Link></li>
+
+                <ul className='menu-list-items'>
+                    <li><Link to="/">Home</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
+                    <li><Link to="/pricing">Pricing</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
+                    <li><Link to="/contact-us">Contact Us</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
                 </ul>
             </nav>
         </>
