@@ -62,13 +62,21 @@
             cursor: pointer;
             padding: 10px 15px;
 
-            img{
+            img {
                 fill: #fff;
                 stroke: #fff;
-                background: rgb(241,241,249);
+                background: rgb(241, 241, 249);
                 padding: 10px;
                 width: 11%;
                 border-radius: 20%;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }
@@ -85,9 +93,14 @@
                 padding: 10px 20px;
                 width: 100%;
                 margin: 0 auto;
+
+                a {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
                 text-align: left;
-                display: flex;
-                justify-content: space-between;
+
             }
         }
 

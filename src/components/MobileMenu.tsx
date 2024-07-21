@@ -66,9 +66,9 @@ const MobileMenu: React.FC = () => {
                 </div>
 
                 <ul className='menu-list-items'>
-                    <li><Link to="/">Home</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
-                    <li><Link to="/pricing">Pricing</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
-                    <li><Link to="/contact-us">Contact Us</Link><img src='/src/assets/right-arrow.svg' alt='right-arrow' /></li>
+                    <li><Link to="/">Home <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
+                    <li><Link to="/pricing">Pricing <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
+                    <li><Link to="/contact-us">Contact Us <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
                 </ul>
             </nav>
         </>
