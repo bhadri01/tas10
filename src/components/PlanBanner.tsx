@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles/PlanBanner.scss';
 const PlanBanner: React.FC = () => {
 return (
-<div className='plan-main'>
+<section className='plan-main'>
    <section id="plan">
       <div className="container">
          <div className="row plan-sec">
@@ -24,14 +25,14 @@ return (
                      <h1>FREE</h1>
                      <button className=" tryfree  btn-rounded" type="button">TRY IT FOR FREE</button>
                   </div>
-                  <div className="col-lg-7 points ">
+                  <div className="col-lg-7 points">
                      <div>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> Unlimited receipt storage</p>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> Unlimited auto-scans</p>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> Expense report automation</p>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> Asset Life Cycle Management</p>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> Accounting integration </p>
-                        <p><i aria-hidden="true" className="fa fa-check"></i> IT asset management</p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> Unlimited receipt storage</p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> Unlimited auto-scans</p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> Expense report automation</p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> Asset Life Cycle Management</p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> Accounting integration </p>
+                        <p><img src='/src/assets/tick.svg' alt="tick" /> IT asset management</p>
                      </div>
                   </div>
                </div>
@@ -39,7 +40,7 @@ return (
          </div>
       </div>
    </section>
-</div>
+</section>
 );
 };
 export default PlanBanner;
