@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MobileMenu from './MobileMenu';
 
 const Navbar: React.FC = () => {
     return (
@@ -19,6 +20,7 @@ const Navbar: React.FC = () => {
                     <li className='sign-up'><Link to="/login">Login</Link></li>
                 </ul>
             </nav>
+            <MobileMenu />
         </>
     );
 };
