@@ -7,7 +7,7 @@
 
 footer {
     position: relative;
-    background: #f8f8fc;
+    background: #0c002f;
     // Add your additional styles for the footer here
 
     padding: 20px;
@@ -57,23 +57,9 @@ footer {
                 h3 {
                     font-size: 18px;
                     margin-bottom: 10px;
-                    color: rgb(36, 34, 62);
+                    // color: rgb(36, 34, 62);
+                    color: #fff;
                     font-weight: 900;
-                }
-
-                .footer__link {
-                    color: #666;
-                    text-decoration: none;
-                    margin-right: 10px;
-                }
-
-                .footer__link:hover {
-                    text-decoration: underline;
-                }
-
-
-                &:first-child {
-                    // align-self: center;
                 }
 
                 ul {
@@ -82,7 +68,7 @@ footer {
                         margin: -4px 0;
                         padding: 9px;
                         border-radius: 9px;
-                        color: #000;
+                        color: #fff;
                         font-weight: 500;
                         font-size: 13;
                         line-height: 1;
@@ -125,6 +111,7 @@ footer {
                         margin: 0;
                         padding: 0;
                         width: 100%;
+
                         li {
                             margin: 0;
                             padding: 5px 0;
@@ -134,5 +121,5 @@ footer {
             }
         }
     }
-    
+
 }
