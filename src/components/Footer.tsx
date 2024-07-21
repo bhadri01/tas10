@@ -36,10 +36,10 @@ const Footer: React.FC = () => {
                     <div className="footer-content-box">
                         <h3>Contact Us</h3>
                         <ul>
-                            <li><a href="/">No: 4/2, 2nd Floor, Balaji Avenue 2nd Street, Thirumalai Pillai Road, T.Nagar, Chennai 600017.</a></li>
-                            <li><a href="/">
+                            <li><i className="pi pi-map-marker" style={{ color: '#fff', marginRight: '10px' }}></i><a href="/">No: 4/2, 2nd Floor, Balaji Avenue 2nd Street, Thirumalai Pillai Road, T.Nagar, Chennai 600017.</a></li>
+                            <li><i className="pi pi-phone" style={{ color: '#fff', marginRight: '10px' }}></i><a href="/">
                                 +91-9876544321</a></li>
-                            <li><a href="/">
+                            <li><i className="pi pi-envelope" style={{ color: '#fff', marginRight: '10px' }}></i><a href="/">
                                 info@tas10.com</a></li>
                         </ul>
                     </div>
