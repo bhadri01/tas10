@@ -1,0 +1,71 @@
+/* Hide menu icon and navbar by default, show only in mobile view */
+.menu-icon,
+.navbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 22px auto;
+        position: sticky;
+        top: 10px;
+        z-index: 9999;
+
+        svg {
+            width: 13%;
+            border: 1px solid #eee;
+            background: #fff;
+            border-radius: 14px;
+            padding: 10px;
+            box-shadow: 0 4px 6px 0 rgba(67, 46, 134, 0.04);
+        }
+
+        img {
+            width: 60%;
+            margin-right: 10px;
+            border: 1px solid #eee;
+            background: #fff;
+            border-radius: 14px;
+            padding: 10px;
+            box-shadow: 0 4px 6px 0 rgba(67, 46, 134, 0.04);
+
+        }
+
+        /* Style your menu icon here */
+    }
+
+    .navbar {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        /* Start off-screen */
+        height: 100%;
+        width: 100%;
+        /* Adjust as needed */
+        background-color: #fff;
+        /* Adjust as needed */
+        transition: right 0.3s ease;
+        z-index: 9999;
+
+        .close-btn {
+            position: absolute;
+            top: 10px; // Adjust as needed
+            right: 10px; // Adjust as needed
+            cursor: pointer;
+            z-index: 999999;
+            // Style your close button ('X') here (size, color, etc.)
+        }
+    }
+
+    .navbar.open {
+        right: 0;
+        /* Slide in */
+    }
+
+    /* Style navbar links for mobile here */
+}
