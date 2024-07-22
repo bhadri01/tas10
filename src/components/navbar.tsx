@@ -7,16 +7,19 @@ const Navbar: React.FC = () => {
         <>
             <nav>
                 <div className='left-side'>
-                    <Link to="/"> <img src="/src/assets/main-office-logo/logo-v3-clickup-light.svg" alt="logo" /></Link>
+                    <Link to="/">
+                        <div className='flex justify-center items-center border border-[#eee] rounded-xl p-1 px-2 bg-white shrink-0'>
+                            <img src="/logo.png" alt="logo" className='w-28 h-10 object-contain' />
+                            <span className='uppercase font-bold '>tas10</span>
+                        </div>
+                    </Link>
                     <ul>
                         <li className='log-in'><Link to="/">Home</Link></li>
-                        {/* <li><Link to="/login">Login</Link></li> */}
                         <li><Link to="/pricing">Pricing</Link></li>
                         <li><Link to="/contact-us">Contact Us</Link></li>
                     </ul>
                 </div>
                 <ul>
-                    {/* <li><Link to="/login">Login</Link></li> */}
                     <li className='sign-up'><Link to="/login">Login</Link></li>
                 </ul>
             </nav>

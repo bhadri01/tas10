@@ -40,7 +40,11 @@ const MobileMenu: React.FC = () => {
     return (
         <>
             <div className="menu-icon">
-                <Link to="/"> <img src="/src/assets/main-office-logo/logo-v3-clickup-light.svg" alt="logo" /></Link>
+
+                <Link to="/"> <div className='flex justify-center items-center border border-[#eee] rounded-xl p-1 px-2 bg-white shrink-0'>
+                    <img src="/logo.png" alt="logo" className='w-28 h-10 object-contain' />
+                    <span className='uppercase font-bold '>tas10</span>
+                </div></Link>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
