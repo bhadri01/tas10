@@ -66,13 +66,13 @@ const MobileMenu: React.FC = () => {
                         <li className='sign-up'><Link to="/login">Login</Link></li>
                         {/* Add more links here */}
                     </ul>
-                    <img src='/src/assets/close.svg' alt='close' onClick={() => setIsNavbarOpen(false)} />
+                    <img src='/assets/close.svg' alt='close' onClick={() => setIsNavbarOpen(false)} />
                 </div>
 
                 <ul className='menu-list-items'>
-                    <li><Link to="/">Home <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
-                    <li><Link to="/pricing">Pricing <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
-                    <li><Link to="/contact-us">Contact Us <img src='/src/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
+                    <li><Link to="/">Home <img src='/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
+                    <li><Link to="/pricing">Pricing <img src='/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
+                    <li><Link to="/contact-us">Contact Us <img src='/assets/right-arrow.svg' alt='right-arrow' /></Link></li>
                 </ul>
             </nav>
         </>

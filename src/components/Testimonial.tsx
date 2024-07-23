@@ -40,12 +40,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -60,12 +60,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -80,12 +80,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -100,12 +100,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -120,12 +120,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -140,12 +140,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>
@@ -160,12 +160,12 @@ const Testimonial: React.FC = () => {
                         <div className="col-sm-4">
                             <div className="img-box">
                                 <div className="thumb">
-                                    <img alt="Image" className="img-fluid" src="/src/assets/sara.png" />
+                                    <img alt="Image" className="img-fluid" src="/assets/sara.png" />
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="name"> Christopher Doe <br /> Orlando, Florida </p>
                                     <p>
-                                        <img className="comma" src="/src/assets/comma.png" />
+                                        <img className="comma" src="/assets/comma.png" />
                                     </p>
                                     <div className="text">
                                         <p>

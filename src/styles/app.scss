@@ -100,11 +100,13 @@
 .slider-comp {
   position: relative;
   margin-top: 5%;
+  overflow: hidden;
 }
 
 .flower-background {
+  max-width: 1024px;
   width: 100%;
-  margin: 0 auto 2%;
+  margin: 0 auto;
 
   img {
     margin: 0 auto;
@@ -115,7 +117,7 @@
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     word-wrap: break-word;
     line-height: 1.243902439;
@@ -125,7 +127,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
-    width: 27%;
+    width: 50%;
     margin: 0 auto;
     word-wrap: break-word;
     line-height: 1.243902439;
@@ -144,7 +146,7 @@
   }
 
   .slider-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -285,13 +287,13 @@ nav {
 .main-top-banner {
   max-width: 1070px;
   margin: 0 auto;
-  width: 55%;
+  width: 100%;
   text-align: center;
 
   h1 {
     font-size: 3rem;
     font-weight: 900;
-    width: 72%;
+    width: 70%;
     margin: 0 auto;
     word-wrap: break-word;
     line-height: 1.243902439;
@@ -360,17 +362,17 @@ nav {
     width: 100%;
 
     h1 {
-      width: 80%;
+      width: 90%;
       font-size: 2.5625rem;
     }
 
     h3 {
-      width: 80%;
+      width: 90%;
       font-size: 1.1875rem;
     }
 
     button {
-      width: 60%;
+      width: 70%;
       font-size: 18px;
       padding: 10px 20px;
     }

@@ -12,8 +12,8 @@ const Home: React.FC = () => {
             <MainBanner />
             <ImageSlider />
             <Flower />
-            <Cards />
             <PlanBanner />
+            <Cards />
             <Testimonial />
         </>
     );

@@ -25,7 +25,7 @@ const Cards: React.FC = () => {
                 </div>
             </div>
             <div className='svg-image'>
-                <img src='/src/assets/background-for-cards.svg' alt='background' />
+                <img src='/assets/background-for-cards.svg' alt='background' />
             </div>
         </section>
     );

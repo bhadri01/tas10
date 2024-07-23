@@ -7,13 +7,13 @@ const Footer: React.FC = () => {
             <section className="footer-box">
                 <div className="footer-content">
                     <div className="footer-content-box social">
-                        <img src="/src/assets/main-office-logo/logo-white.png" alt="logo" />
+                        <img src="/assets/main-office-logo/logo-white.png" alt="logo" />
 
                         <div className="footer-social">
-                            <a href="/"><img src="/src/assets/social-icons/linkedIn.svg" alt="linkedin" /></a>
-                            <a href="/"><img src="/src/assets/social-icons/facebook.svg" alt="facebook" /></a>
-                            <a href="/"><img src="/src/assets/social-icons/twitter.svg" alt="twitter" /></a>
-                            <a href="/"><img src="/src/assets/social-icons/instagram.svg" alt="instagram" /></a>
+                            <a href="/"><img src="/assets/social-icons/linkedIn.svg" alt="linkedin" /></a>
+                            <a href="/"><img src="/assets/social-icons/facebook.svg" alt="facebook" /></a>
+                            <a href="/"><img src="/assets/social-icons/twitter.svg" alt="twitter" /></a>
+                            <a href="/"><img src="/assets/social-icons/instagram.svg" alt="instagram" /></a>
                         </div>
                     </div>
                     <div className="footer-content-box">

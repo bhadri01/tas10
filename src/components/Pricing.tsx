@@ -19,11 +19,11 @@ const Pricing: React.FC = () => {
                     <h1>Free</h1>
                     <h5>For 10 Assets</h5>
                     <ul>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Free trail</button>
                 </div>
@@ -35,11 +35,11 @@ const Pricing: React.FC = () => {
                     <h1><span>₹</span>269</h1>
                     <h5>For 100 Assets</h5>
                     <ul>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
@@ -51,11 +51,11 @@ const Pricing: React.FC = () => {
                     <h1><span>₹</span>439</h1>
                     <h5>For 1000 Assets</h5>
                     <ul>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/close.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/assets/close.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
@@ -67,11 +67,11 @@ const Pricing: React.FC = () => {
                     <h1><span>₹</span>599</h1>
                     <h5>For 10000 Assets</h5>
                     <ul>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 1</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 2</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 3</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 4</li>
-                        <li><img src='/src/assets/tick.svg' alt='tick' />Feature 5</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 1</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 2</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 3</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 4</li>
+                        <li><img src='/assets/tick.svg' alt='tick' />Feature 5</li>
                     </ul>
                     <button>Buy now</button>
                 </div>
